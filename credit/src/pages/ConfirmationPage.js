@@ -25,7 +25,7 @@ class ConfirmationPage extends React.Component {
   	}
 
   	handleClick() {
-  		fetch('http://localhost:9000/users', {
+  		fetch('https://credit-management-api.herokuapp.com/users', {
 		    method: 'POST',
 		    body: JSON.stringify(this.state),
 		    headers: {

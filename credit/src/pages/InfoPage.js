@@ -18,7 +18,7 @@ class InfoPage extends React.Component {
 	}
 
 	callAPI() {
-      fetch("http://localhost:9000/users?name=" + this.props.location.state.name)
+      fetch("https://credit-management-api.herokuapp.com/users?name=" + this.props.location.state.name)
         .then(res => res.json())
         .then((data) => {
           this.setState({ apiResponse: data });

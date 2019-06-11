@@ -22,7 +22,7 @@ class RecipientPage extends React.Component {
 	}
 
 	 callAPI() {
-      fetch("http://localhost:9000/users")
+      fetch("https://credit-management-api.herokuapp.com/users")
         .then(res => res.json())
         .then((data) => {
           this.setState({ apiResponse: data });
