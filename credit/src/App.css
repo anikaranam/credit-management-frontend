@@ -1,0 +1,175 @@
+.App {
+  
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+h1 {
+  margin: 0 auto;
+}
+
+label {
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+input {
+  margin-left: 40px;
+}
+
+.radiogroup {
+  text-align: left;
+  font-size: 2px;
+  display: inline-block;
+  margin-left: 520px;
+  font-size: 20px;
+}
+
+.radio {
+  display: inline-block;
+  text-align: left;
+}
+
+.heading {
+  text-align: center;
+  margin-top: 15px;
+}
+.container2 {
+  font-family: "Calibri";
+  text-align: center;
+}
+
+.container.ani2 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.container.ani {
+  margin-top: 40px;
+  width: 50%;
+  text-align: left;
+  font-size: 20px;
+  border: 1px solid black;
+}
+
+td {
+  padding-left: 200px;
+}
+
+.InfoHeader {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.info {
+  padding-top: 1px;
+  padding-bottom: 700px;
+}
+
+.transferamount {
+  text-align: center;
+  background-color: white;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.form-group.row.center-block {
+  background-color: white;
+  width: 73%;
+  font-size: 20px;
+}
+
+.container.ani3 {
+  margin-left: 350px;
+}
+
+.form-control {
+  margin-top: 10px;
+}
+
+.form-group {
+  width: 50%;
+}
+
+
+.title {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.active {
+  background-color: blue;
+}
+
+.container.info-button {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.container .ani {
+  text-align: center;
+}
+
+.processparent {
+  text-align: center;
+}
+
+.process {
+  display: inline-block;
+  text-align: left;
+}
+
+.viewButton {
+  text-align: center;
+}
+
+.btn.btn-success {
+  font-size: 25px;
+}
+
+.btn.btn-primary {
+  margin-top: 40px;
+}
+
+hr {
+  border-top-width: 1px;
+}
+
+nav {
+  display: inline-block;;
+}
+
+ul {
+  margin: 0 auto;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
