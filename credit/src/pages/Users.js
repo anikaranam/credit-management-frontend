@@ -74,7 +74,6 @@ class Users extends React.Component {
 				<div>
 					<form>
 						<div className="radiogroup">
-							<div className="container">
 								<input type="radio" name="optradio" id="0" onClick={this.handleClick}/><label id="user0"></label><br />
 								<input type="radio" name="optradio" id="1" onClick={this.handleClick}/><label id="user1"></label><br />
 								<input type="radio" name="optradio" id="2" onClick={this.handleClick}/><label id="user2"></label><br />
@@ -85,7 +84,6 @@ class Users extends React.Component {
 								<input type="radio" name="optradio" id="7" onClick={this.handleClick}/><label id="user7"></label><br />
 								<input type="radio" name="optradio" id="8" onClick={this.handleClick}/><label id="user8"></label><br />
 								<input type="radio" name="optradio" id="9" onClick={this.handleClick}/><label id="user9"></label><br />
-							</div>
 						</div>
 						<div className="container2">
 							<Link to={{
